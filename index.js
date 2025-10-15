@@ -1,5 +1,5 @@
-let node = document.querySelector("div > a");
+console.log(document.forms[0])
 
-let result = node.getAttribute("href");
+console.log(document.forms["frm1"])
 
-console.log(result);
+console.log(document.frm1)
