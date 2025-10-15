@@ -1,9 +1,10 @@
-let exampleSet = new Set();
+let exampleMap = new Map();
 
-exampleSet.add(1);
-exampleSet.add(2);
-exampleSet.add(3);
+exampleMap.set("key1","value1");
+exampleMap.set("key2","value2");
+exampleMap.set("key3","value3");
 
-let result = Array.from(exampleSet);
-
-console.log(result);
+exampleMap.forEach((value,key)=>{
+	console.log(value);
+	console.log(key);
+})
