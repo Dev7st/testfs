@@ -1,5 +1,5 @@
-const btnEl = document.querySelector("button");
+const pEl = document.querySelector("p");
 
-btnEl.addEventListener("click",()=>{
-	alert("hello");
-})
+pEl.addEventListener("click",(e) => {
+	e.target.style.color = "red"
+});
