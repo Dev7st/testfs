@@ -1,12 +1,9 @@
-const obj1 = {
-	x: 1,
-	y: 2
-}
+let exampleSet = new Set();
 
-const obj2 = {
-	...obj1,
-	c:3,
-	d:4
-};
+exampleSet.add(1);
+exampleSet.add(2);
+exampleSet.add(3);
 
-console.log(obj2);
+let result = Array.from(exampleSet);
+
+console.log(result);
