@@ -1,5 +1,8 @@
-const pEl = document.querySelector("p");
+const {name : fullName,age : personAge,city} = {
+	name: 'John',
+	age: 30,
+	city: 'New York'
+};
 
-pEl.addEventListener("click",(e) => {
-	e.target.style.color = "red"
-});
+console.log(fullName); 
+console.log(personAge);
