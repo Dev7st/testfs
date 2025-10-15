@@ -1,5 +1,5 @@
-let result = document.frm1.textarea_example.value;
+const btnEl = document.querySelector("button");
 
-console.log(result);
-
-document.frm1.textarea_example.value = "change"
+btnEl.addEventListener("click",()=>{
+	alert("hello");
+})
