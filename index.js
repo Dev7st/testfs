@@ -1,3 +1,5 @@
-let example = document.querySelector("div");
-
-console.log(example.innerHTML);
+function add(){
+	let node = document.querySelector("div > p");
+	node.classList.add("hello");
+    console.log(node.classList);
+}
