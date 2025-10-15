@@ -1,5 +1,5 @@
-function add(){
-	let node = document.querySelector("div > p");
-	node.classList.add("hello");
-    console.log(node.classList);
-}
+let node = document.querySelector("div > a");
+
+let result = node.getAttribute("href");
+
+console.log(result);
