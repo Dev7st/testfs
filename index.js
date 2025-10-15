@@ -1,10 +1,9 @@
-let exampleMap = new Map();
+const numbers = [1,2,3,4,5,6];
 
-exampleMap.set("key1","value1");
-exampleMap.set("key2","value2");
-exampleMap.set("key3","value3");
+const result = numbers.filter((number,index,array)=>{
+	console.log(index);
+	console.log(array);
+	return number > 3;
+});
 
-exampleMap.forEach((value,key)=>{
-	console.log(value);
-	console.log(key);
-})
+console.log(result);
