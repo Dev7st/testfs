@@ -1,8 +1,12 @@
-const {name : fullName,age : personAge,city} = {
-	name: 'John',
-	age: 30,
-	city: 'New York'
+const obj1 = {
+	x: 1,
+	y: 2
+}
+
+const obj2 = {
+	...obj1,
+	c:3,
+	d:4
 };
 
-console.log(fullName); 
-console.log(personAge);
+console.log(obj2);
