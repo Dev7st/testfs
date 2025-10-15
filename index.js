@@ -1,5 +1,5 @@
-console.log(document.forms[0])
+let result = document.frm1.textarea_example.value;
 
-console.log(document.forms["frm1"])
+console.log(result);
 
-console.log(document.frm1)
+document.frm1.textarea_example.value = "change"
