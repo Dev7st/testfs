@@ -2,13 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-const title = "Title";
-const description = "Description";
+const isLogin = true;
 
   return (
     <>
-	  	<p>{title}</p>
-		  <p>{description}</p>
+		  <p>{isLogin&&"안녕하세요"}</p>
 	  </>
   );
 }
