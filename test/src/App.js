@@ -1,19 +1,11 @@
-import './App.css';
-
-function Component(){
-  return (
-    <div>Hello</div>
-  );
-}
+import Header, { Main } from './component';
 
 function App() {
 
   return (
     <>
-		  <Component />
-		  <Component />
-		  <Component />
-		  <Component />
+      <Header />
+      <Main />
 	  </>
   );
 }
