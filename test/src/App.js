@@ -1,4 +1,4 @@
-import Header, { Main } from './component';
+import Header, { Main } from './component/Header';
 
 function App() {
 
