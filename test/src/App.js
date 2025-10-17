@@ -1,11 +1,10 @@
-import Header, { Main } from './component/Header';
+import Example from './component/Example';
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Main />
+      <Example message="Hello" />
 	  </>
   );
 }
