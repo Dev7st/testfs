@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const Example = (props) => {
-    return (
-        <div>
-            {props.message}
-            {console.log(props)}
-        </div>
-    );
+const Example = ({message=""}) => {
+
+	return (
+		<div>
+			{message}
+            {console.log(message)}
+		</div>
+	);
 };
 
 export default Example;

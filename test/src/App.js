@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <Example message="Hello" />
+      <Example/>
 	  </>
   );
 }
