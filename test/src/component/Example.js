@@ -1,11 +1,10 @@
 import React from "react";
 
-const Example = ({message=""}) => {
+const Example = ({children}) => {
 
 	return (
 		<div>
-			{message}
-            {console.log(message)}
+			{children}
 		</div>
 	);
 };

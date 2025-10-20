@@ -3,10 +3,11 @@ import Example from './component/Example';
 function App() {
 
   return (
-    <>
-      <Example message="Hello" />
-      <Example/>
-	  </>
+	<>
+		<Example>
+			<p>hello</p>
+		</Example>
+	</>
   );
 }
 
