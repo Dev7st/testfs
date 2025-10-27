@@ -4,9 +4,7 @@ function App() {
 
   return (
 	<>
-		<Example>
-			<p>hello</p>
-		</Example>
+		<Example/>
 	</>
   );
 }

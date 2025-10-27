@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Example = ({children}) => {
+const Example = () => {
+	const [aa,setAa] = useState(10);
 
-	return (
+	return(
 		<div>
-			{children}
+			{aa}
 		</div>
 	);
 };
