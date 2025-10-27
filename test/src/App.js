@@ -1,9 +1,10 @@
-const Button = () => {
+const Button = ({message}) => {
+	function handleClick(){
+		alert(message);
+	}
 
 	return (
-		<button onClick={() => {
-			alert("good");
-		}}>클릭</button>
+		<button onClick={handleClick}>클릭</button>
 	)
 }
 
@@ -11,7 +12,7 @@ function App() {
 
   return (
 	<>
-		<Button></Button>
+		<Button message = "123"></Button>
 	</>
   );
 }
