@@ -1,8 +1,8 @@
 const Button = () => {
 
 	return (
-		<button onClick={function handleClick(){
-			alert("hi");
+		<button onClick={() => {
+			alert("good");
 		}}>클릭</button>
 	)
 }
