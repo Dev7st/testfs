@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Example = () => {
-	const [aa,setAa] = useState(10);
+	const [aa,setAa] = useState("good");
 
 	return(
 		<div>

@@ -1,10 +1,18 @@
-import Example from './component/Example';
+const Button = () => {
+	function handleClick(){
+		alert("Hello");
+	}
+
+	return (
+		<button onClick={handleClick}>클릭</button>
+	)
+}
 
 function App() {
 
   return (
 	<>
-		<Example/>
+		<Button></Button>
 	</>
   );
 }
