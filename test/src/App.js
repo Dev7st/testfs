@@ -1,18 +1,18 @@
-const Button = ({message}) => {
-	function handleClick(){
-		alert(message);
-	}
+const Button = ({onAa}) => {
 
 	return (
-		<button onClick={handleClick}>클릭</button>
-	)
-}
+		<button onClick={onAa}>클릭</button>
+	);
+};
 
 function App() {
+	function handleClick(){
+		alert("gogogo")
+	}
 
   return (
 	<>
-		<Button message = "123"></Button>
+	<Button onAa={handleClick}></Button>
 	</>
   );
 }
