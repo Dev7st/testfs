@@ -1,10 +1,9 @@
 const Button = () => {
-	function handleClick(){
-		alert("Hello");
-	}
 
 	return (
-		<button onClick={handleClick}>클릭</button>
+		<button onClick={function handleClick(){
+			alert("hi");
+		}}>클릭</button>
 	)
 }
 
